@@ -12,24 +12,24 @@
 	},
 	"accounts": {
 		"default": {
-			"address": "045a1763c93006ca",
-			"key": "cde1ac56a761e090119b620f9c8e8f5c4f8469f3edf73a6775fb2ffa0995c57c"
+			"address": "192440c99cb17282",
+			"key": "6f7c6a5b7eb7faa543beaed74a53000313504e49110b4789044c848588bf35dd"
 		},
 		"emulator-account": {
 			"address": "f8d6e0586b0a20c7",
 			"key": "6d12eebfef9866c9b6fa92b97c6e705c26a1785b1e7944da701fc545a51d4673"
 		},
 		"exampleNFT-deployer": {
-			"address": "120e725050340cab",
-			"key": "6a3aa317544c04e8e52c01c00196d55e500ebf0aadc7f896332c86fd42af1a54"
+			"address": "fd43f9148d4b725d",
+			"key": "3c3edd73dee797f0fe4b6b4b500479f6a006418cbb2ae1f8a2c18305c79e4e15"
 		},
 		"ft-switchboard": {
-			"address": "f669cb8d41ce0c74",
-			"key": "58e8e4121c2e163dc4f49d67476650bd7b0d280d83a9bcfa80bc788bebbe1543"
+			"address": "eb179c27144f783c",
+			"key": "49e8f60d0b5b3aace72e36b634ca7e7c2e3685765578bab6be1746559f9a8265"
 		},
 		"nft-standards": {
-			"address": "192440c99cb17282",
-			"key": "8bb5b5b53ab306be5e0f4cb0fca6dfc0a18bb971a2beb0fcc0e7f1b52a099b2b"
+			"address": "0f7025fa05b578e3",
+			"key": "b55c161f0087f0017927b300f7c8f2d8d38c53a782ef0146586d45ffcb763adc"
 		}
 	},
 	"deployments": {
