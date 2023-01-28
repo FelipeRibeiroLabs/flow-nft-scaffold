@@ -1,13 +1,50 @@
 {
+	"contracts": {
+		"ExampleNFT": "cadence/contracts/exampleNFT-deployer/ExampleNFT.cdc",
+		"FungibleTokenSwitchboard": "cadence/contracts/ft-switchboard/ FungibleTokenSwitchboard.cdc",
+		"MetadataViews": "cadence/contracts/nft-standards/MetadataViews.cdc",
+		"NonFungibleToken": "cadence/contracts/nft-standards/NonFungibleToken.cdc"
+	},
 	"networks": {
 		"emulator": "127.0.0.1:3569",
 		"mainnet": "access.mainnet.nodes.onflow.org:9000",
 		"testnet": "access.devnet.nodes.onflow.org:9000"
 	},
 	"accounts": {
+		"default": {
+			"address": "045a1763c93006ca",
+			"key": "cde1ac56a761e090119b620f9c8e8f5c4f8469f3edf73a6775fb2ffa0995c57c"
+		},
 		"emulator-account": {
 			"address": "f8d6e0586b0a20c7",
 			"key": "6d12eebfef9866c9b6fa92b97c6e705c26a1785b1e7944da701fc545a51d4673"
+		},
+		"exampleNFT-deployer": {
+			"address": "120e725050340cab",
+			"key": "6a3aa317544c04e8e52c01c00196d55e500ebf0aadc7f896332c86fd42af1a54"
+		},
+		"ft-switchboard": {
+			"address": "f669cb8d41ce0c74",
+			"key": "58e8e4121c2e163dc4f49d67476650bd7b0d280d83a9bcfa80bc788bebbe1543"
+		},
+		"nft-standards": {
+			"address": "192440c99cb17282",
+			"key": "8bb5b5b53ab306be5e0f4cb0fca6dfc0a18bb971a2beb0fcc0e7f1b52a099b2b"
+		}
+	},
+	"deployments": {
+		"emulator": {
+			"default": [],
+			"exampleNFT-deployer": [
+				"ExampleNFT"
+			],
+			"ft-switchboard": [
+				"FungibleTokenSwitchboard"
+			],
+			"nft-standards": [
+				"MetadataViews",
+				"NonFungibleToken"
+			]
 		}
 	}
 }

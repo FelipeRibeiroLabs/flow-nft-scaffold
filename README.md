@@ -1,5 +1,17 @@
 ### 👋 Welcome Flow Developer!
-Welcome to your new Flow project. We've created the basic folder structure you will need to develop your project and provided some examples of contracts and transactions you can modify. We've also added some of the most common contracts, transactions and scripts but feel free to just delete what you don't need. 
+
+#### This repository was created using https://github.com/sideninja/flow-basic-scaffold as a template!
+
+Welcome to your new Flow project. We've created the NFT-Standards folder structure you will need to develop your NFT project and provided some examples of contracts and transactions you can modify. 
+
+You will find the ExampleNFT contract and some basic transactions and scripts. You can use these as an example and create your own NFT contract from them.
+
+In order to execute the transactions contained in this scaffold in the transaction and script folder, README.md files with explanations and commands have been added.
+
+To mint an ExampleNFT, make sure that you:
+
+- Run the setupSwitchboardAccount transaction located in the cadence/transactions/royalty-receiver folder
+- Run the setupAccount transaction located in the cadence/transactions/exampleNFT folder
 
 ### 🔨 Getting started
 Getting started can feel overwhelming, but we are here for you. Depending on how accustomed you are to Flow here's a list of resources you might find useful:
@@ -21,6 +33,10 @@ Inside `cadence` folder you will find:
 - `/scripts` location for Cadence scripts goes here
 - `/transactions` location for Cadence transactions goes in this folder
 - `/tests` all the integration tests for your dapp and Cadence tests go into this folder
+
+Inside `contracts` folder you will find:
+- `/nft-standards` It will be the account that contains the default contracts NonFungibleToken and MetadataViews
+- `/exampleNFT-deployer` It will be the account that contains the ExampleNFT contract
 
 
 ### 👨‍💻 Start Developing
@@ -63,3 +79,4 @@ import "Foo"
 - Cadence Language Reference https://developers.flow.com/cadence/language
 - Flow Smart Contract Project Development Standards https://developers.flow.com/cadence/style-guide/project-development-tips
 - Cadence anti-patterns https://developers.flow.com/cadence/anti-patterns
+ 
